@@ -1,0 +1,30 @@
+body { 
+    background-color:#364b71; 
+    text-align: center;
+}
+
+h1 {
+    color: #88bbe3;
+    font-size: 18pt;
+    text-align: center;
+    font-family: helvetica;
+    font-weight: lighter;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+ 
+.inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
