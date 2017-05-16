@@ -26,7 +26,7 @@
     $( ".imageUrl" ).change(function() {
         $.ajax({
             type: "POST",
-            url: "https://southcentralus.api.cognitive.microsoft.com/customvision/v1.0/Prediction/d92eb439-cdd6-4683-a336-de4450549c5b/url?iterationId=7399aeaa-fd4d-4c25-9bd4-222b8465525d",
+            url: "https://southcentralus.api.cognitive.microsoft.com/customvision/v1.0/Prediction/d92eb439-cdd6-4683-a336-de4450549c5b/url",
             data: "{ Url: '" + $(".imageUrl").val() + "'}",
             dataType: "json",
             headers: {
